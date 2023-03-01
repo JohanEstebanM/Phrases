@@ -1,0 +1,78 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(88, 52, 126, 0.5);
+}
+.Authors {
+  display: flex;
+
+}
+@media (min-width: 320px){
+  p{
+    font-family: "Times New Roman", Times, serif;
+    font-size:16px;
+    text-shadow: 2px 2px 4px #FF00F4;
+    color:black;
+  }
+  h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 6px #FF3EF9;
+    color:#DEDCDC;
+  }
+  .Card{
+    max-width:85%;
+    border-radius: 40%;
+    padding:20px;
+    margin-bottom:10px;
+  }
+  .Phrases {
+    max-width:90%
+  }
+}
+@media (min-width: 768px){
+  p{
+    font-size:20px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .Card{
+    max-width:85%;
+    border-radius: 20px;
+    padding:20px;
+    margin-bottom:10px;
+  }
+}
+@media (min-width: 1024px){
+  p{
+    font-size:30px;
+  }
+  h1{
+    font-size: 80px;
+  }
+  .Card{
+    max-width:70%;
+    border-radius: 30px;
+    padding:20px;
+    margin-bottom:10px;
+  }
+  .Phrases {
+    max-width:90%
+  }
+}
+
