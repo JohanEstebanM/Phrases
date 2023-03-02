@@ -17,7 +17,7 @@ function App() {
     }
     setRandomNum(newPhraseIndex);
   };
-  
+
   const changeImg = () => {
     let newImgIndex = random(0, Img.length - 1);
     while (newImgIndex === randomImg) {
