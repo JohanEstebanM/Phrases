@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import "./App.css";
 import Authors from "./components/Authors";
 import Phrases from "./components/Phrases";
-import Img from "./assets/img.json";
+import Img from "./assets/Img.json";
 import { getRandomNumber as random } from "./utils/getRamdonNumber";
-import Data from "./assets/data.json";
+import Data from "./assets/Data.json";
 
 function App() {
   const [randomNum, setRandomNum] = useState(random(0, Data.length - 1));

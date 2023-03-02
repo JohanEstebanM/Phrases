@@ -1,5 +1,5 @@
 import React from 'react'
-import Data from '../assets/data.json'
+import Data from '../assets/Data.json'
 
 const authors = ({num}) => {
     const phrase =Data[num].author;
